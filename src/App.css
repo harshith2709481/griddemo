@@ -1,0 +1,63 @@
+/* Page frame */
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  background: #f6f7fb;
+  color: #1a1a1a;
+}
+
+/* Header */
+header {
+  background: #263248;
+  color: #fff;
+  padding: 16px 24px;
+}
+.logo {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* Horizontal responsive grid */
+.projects-grid {
+  max-width: 1200px;
+  margin: 16px auto 32px;
+  padding: 0 16px;
+
+  display: grid;
+  gap: 24px;
+
+  /* Auto-creates as many columns as fit; min card width = 260px */
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+}
+
+/* Card styling */
+.card {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+}
+
+/* Consistent image shape (16:9), cropped nicely */
+.card img {
+  width: 100%;
+  aspect-ratio: 16 / 9;   /* modern browsers */
+  object-fit: cover;
+  display: block;
+}
+
+/* Title area */
+.card label {
+  padding: 12px 16px;
+  font-weight: 600;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  color: #667085;
+  padding: 24px 16px 40px;
+}
