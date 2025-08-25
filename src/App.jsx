@@ -18,47 +18,47 @@ class App extends Component {
         <section className="projects-grid">
           {/* Each card displays an image and a label/title below it */}
           <div className="card">
-            <img src="/1.jpeg" alt="Project One" />
+            <img src="1.jpeg" alt="Project One" />
             <label>Project One</label>
           </div>
 
           <div className="card">
-            <img src="/2.jpeg" alt="Project Two" />
+            <img src="2.jpeg" alt="Project Two" />
             <label>Project Two</label>
           </div>
 
           <div className="card">
-            <img src="/3.jpeg" alt="Project Three" />
+            <img src="3.jpeg" alt="Project Three" />
             <label>Project Three</label>
           </div>
 
           <div className="card">
-            <img src="/4.jpeg" alt="Project Four" />
+            <img src="4.jpeg" alt="Project Four" />
             <label>Project Four</label>
           </div>
 
           <div className="card">
-            <img src="/5.jpeg" alt="Project Five" />
+            <img src="5.jpeg" alt="Project Five" />
             <label>Project Five</label>
           </div>
 
           <div className="card">
-            <img src="/6.jpeg" alt="Project Six" />
+            <img src="6.jpeg" alt="Project Six" />
             <label>Project Six</label>
           </div>
 
           <div className="card">
-            <img src="/7.jpeg" alt="Project Six" />
+            <img src="7.jpeg" alt="Project Seven" />
             <label>Project Six</label>
           </div>
 
           <div className="card">
-            <img src="/8.jpeg" alt="Project Six" />
+            <img src="8.jpeg" alt="Project eight" />
             <label>Project Six</label>
           </div>
 
           <div className="card">
-            <img src="/9.jpeg" alt="Project Six" />
+            <img src="9.jpeg" alt="Project nine" />
             <label>Project Six</label>
           </div>
         </section>
